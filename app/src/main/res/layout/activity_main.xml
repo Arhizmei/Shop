@@ -8,84 +8,110 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="240dp"
+        android:layout_width="440dp"
         android:layout_height="47dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="591dp" />
+        android:text="Add to cart"
+        android:layout_marginTop="566dp"
+        android:textColorHighlight="#733101"
+        android:textColorLink="#733101"/>
+
 
     <Button
         android:id="@+id/button2"
         android:layout_width="41dp"
         android:layout_height="47dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="199dp"
-        tools:layout_editor_absoluteY="450dp" />
+     android:layout_marginTop="490dp"
+        android:layout_marginLeft="190dp"
+        android:text="-"
+         />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="41dp"
         android:layout_height="47dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="296dp"
-        tools:layout_editor_absoluteY="450dp" />
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="270dp"
+        android:text="+"/>
+
 
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="241dp" />
+        android:layout_height="wrap_content"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="493dp" />
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="230dp"
+        android:text="Quantity"/>
+
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="238dp"
-        tools:layout_editor_absoluteY="417dp" />
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="50dp"
+        android:text="Order price"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="490dp"
+        android:text="0$" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="27dp"
         android:layout_height="22dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="462dp" />
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="250dp"
+        android:text="0" />
+
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="2dp" />
+        android:ems="60"
+        android:hint="Your name"
+        android:inputType="textPersonName" />
+
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="369dp"
-        android:layout_height="71dp"
-        app:srcCompat="@drawable/sale"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="71dp" />
+
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+
+        app:srcCompat="@drawable/sale" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/guitar"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="365dp" />
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="160dp"
+        app:srcCompat="@drawable/guitar"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="190dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="330dp"
+        android:text="Select item" />
 
 
 </RelativeLayout>
